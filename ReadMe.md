@@ -1,1 +1,1 @@
-# Vim config (no plugins)
+# My Vim config (no plugins)
