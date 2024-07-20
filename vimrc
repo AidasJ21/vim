@@ -17,6 +17,7 @@ set softtabstop=4
 set shiftwidth=4
 set expandtab
 set autoindent
+set wrap!
 
 set noshowmatch
 
