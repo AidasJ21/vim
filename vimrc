@@ -35,7 +35,6 @@ syntax on
 set termguicolors
 colorscheme slate
 hi Normal guibg=NONE ctermbg=NONE
-NoMatchParen
 
 set nocompatible
 
@@ -50,6 +49,9 @@ nnoremap <leader>she i#!/bin/bash<ENTER><Esc>
 
 nnoremap <leader>fe :Ex<ENTER>
 
+vnoremap J :m '>+1<CR>gv=gv
+vnoremap K :m '<-2<CR>gv=gv
+
 nnoremap J mzJ`z
 nnoremap <C-u> <C-u>zz
 nnoremap <C-d> <C-d>zz
@@ -63,3 +65,14 @@ nnoremap <leader>sa ggVG
 nnoremap <leader>sr [[:%s/\<<C-r><C-w>\>/<C-r><C-w>/gI<Left><Left><Left>]]
 
 nnoremap <leader>sc :setlocal spell!<ENTER>
+
+nnoremap <C-h> <C-w>h
+nnoremap <C-j> <C-w>j
+nnoremap <C-k> <C-w>k
+nnoremap <C-l> <C-w>l
+
+nnoremap <C-Up> <C-w>+
+nnoremap <C-Down> <C-w>-
+nnoremap <C-Left> <C-w><
+nnoremap <C-Right> <C-w>>
+
